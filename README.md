@@ -10,6 +10,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - Clone this project
 - Use Node version 18.16.0
 - Run 'npm install'
-- Run 'npm run mock' to create json-server
+- Run 'npm run mock' to create json-server.
 - Run 'npm run dev' and then open http:localhost:5173(default)
 - Test features
+- Type '1234' or '5678' as valid verification code

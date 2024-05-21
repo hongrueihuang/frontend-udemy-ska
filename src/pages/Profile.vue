@@ -17,6 +17,10 @@ async function getUser() {
 			Authorization: localStorage.getItem("token"),
 		},
 	});
+	if (data.status === 401) {
+		router.push("/");
+		return;
+	}
 	const response = await data.json();
 	user.value = response;
 }
