@@ -1,0 +1,28 @@
+{
+	"verifyCodes": [
+		{
+			"code": "1234",
+			"token": "token_1234"
+		},
+        {
+            "code": "5678",
+            "token": "token_5678"
+        }
+	],
+	"users": [
+		{
+			"id": "user_1234",
+			"token": "token_1234",
+			"name": "John Doe",
+			"quote": "Hello, I'am John Doe",
+			"photo": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww"
+		},
+        {
+            "id": "user_5678",
+            "token": "token_5678",
+            "name": "Name Wee",
+            "quote": "Hello, I'am Name Wee",
+            "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXZhdGFyfGVufDB8fDB8fHww"
+        }
+	]
+}
